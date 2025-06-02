@@ -1,4 +1,10 @@
 
+trigger:
+  - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
 steps:
   - task: Maven@4
     inputs:
